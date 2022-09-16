@@ -1,5 +1,5 @@
 # 5443-Spatial-DB-mallareddy
-## Project01 - Airports API  [Project01.zip](https://github.com/Sahith98/5443-Spatial-DB-mallareddy/files/9578085/Project01.zip)
+## Project01 - Airports API
 
 ### Sahith Reddy
 ### Description:
@@ -7,6 +7,7 @@
 Airports API is a project based on python and Postgresql which helps to find the information of one airport in the database, using id as input ,all the data in the given database and the information of the closest airport using latitude and longitude as inputs.
 
 ### Files
+[Project01.zip](https://github.com/Sahith98/5443-Spatial-DB-mallareddy/files/9578085/Project01.zip)
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
