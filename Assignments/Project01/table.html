@@ -1,0 +1,36 @@
+<html>
+<style>
+    table, td, th {
+        border: solid 2px lightgrey;
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    {% if result|length > 0 %}
+    <table style="width:100%;">
+        <tr>
+            {% for key in result[0].keys() %}
+            <th>
+                {{key}}
+            </th>
+            {% endfor %}
+        </tr>
+        {% for row in result %}
+        <tr>
+            {% for value in row.values() %}
+            <td>
+                {{value}}
+            </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <h2 style="width:100%;">
+        No data found!
+    </h2>
+    {% endif %}
+</body>
+
+</html>
